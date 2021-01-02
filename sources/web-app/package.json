@@ -1,7 +1,12 @@
 {
-  "name": "TODO",
-  "description": "TODO",
-  "version": "0.0.1",
+  "name": "macarons-shop-berlin",
+  "description": "macarons shop berlin",
+  "version": "0.0.0",
+  "engines": {
+    "node": "=15.5.0",
+    "pnpm": "=5.14.1"
+  },
+  "engineStrict": true,
   "scripts": {
     "dev": "sapper dev",
     "build": "sapper build --legacy",
