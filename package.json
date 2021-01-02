@@ -1,0 +1,25 @@
+{
+  "name": "@deneb-kaitos/macarons",
+  "version": "0.0.0",
+  "description": "macarons shop berlin",
+  "engines": {
+    "node": "=15.5.0",
+    "pnpm": "=5.14.1"
+  },
+  "engineStrict": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dmitry-N-Medvedev/macarons.git"
+  },
+  "keywords": [
+    "macarons",
+    "shop",
+    "berlin"
+  ],
+  "author": "Dmitry N. Medvedev <dmitry.medvedev@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dmitry-N-Medvedev/macarons/issues"
+  },
+  "homepage": "https://github.com/Dmitry-N-Medvedev/macarons#readme"
+}
