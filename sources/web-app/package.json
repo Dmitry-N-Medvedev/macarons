@@ -34,5 +34,93 @@
     "rollup": "^2.3.4",
     "rollup-plugin-svelte": "^7.0.0",
     "rollup-plugin-terser": "^7.0.0"
+  },
+  "eslintConfig": {
+    "parser": "espree",
+    "parserOptions": {
+      "ecmaVersion": 2019,
+      "sourceType": "module"
+    },
+    "extends": [
+      "airbnb-base",
+      "plugin:node/recommended"
+    ],
+    "globals": {
+      "Atomics": "readonly",
+      "SharedArrayBuffer": "readonly"
+    },
+    "env": {
+      "es6": true,
+      "browser": true
+    },
+    "plugins": [
+      "chai-friendly",
+      "svelte3"
+    ],
+    "overrides": [
+      {
+        "files": [
+          "*.svelte"
+        ],
+        "processor": "svelte3/svelte3"
+      }
+    ],
+    "ignorePatterns": [
+      "/node_modules/*"
+    ],
+    "rules": {
+      "no-unused-expressions": 0,
+      "chai-friendly/no-unused-expressions": 2,
+      "no-param-reassign": 0,
+      "camelcase": 0,
+      "node/exports-style": [
+        "error",
+        "module.exports"
+      ],
+      "node/file-extension-in-import": [
+        "error",
+        "always"
+      ],
+      "node/prefer-global/buffer": [
+        "error",
+        "always"
+      ],
+      "node/prefer-global/console": [
+        "error",
+        "always"
+      ],
+      "node/prefer-global/process": [
+        "error",
+        "always"
+      ],
+      "node/prefer-global/url-search-params": [
+        "error",
+        "always"
+      ],
+      "node/prefer-global/url": [
+        "error",
+        "always"
+      ],
+      "node/prefer-promises/dns": "error",
+      "node/prefer-promises/fs": "error",
+      "node/no-unpublished-require": 0,
+      "node/no-missing-require": 0,
+      "import/no-extraneous-dependencies": 0,
+      "node/no-unpublished-import": 0,
+      "node/no-unsupported-features/es-syntax": 0,
+      "import/extensions": [
+        "error",
+        {
+          "js": "always",
+          "mjs": "always",
+          "json": "always"
+        }
+      ],
+      "node/shebang": 0,
+      "import/prefer-default-export": 0,
+      "no-irregular-whitespace": 0,
+      "lines-between-class-members": 0,
+      "import/no-mutable-exports": 0
+    }
   }
 }
