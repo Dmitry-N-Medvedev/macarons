@@ -33,7 +33,7 @@ main {
 
 body {
   font-family: var(--font-family);
-  pointer-events: none;
+  /* pointer-events: none; */
   user-select: none;
 }
 

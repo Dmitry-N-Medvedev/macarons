@@ -8,7 +8,7 @@
     display: grid;
     grid-template-columns: 1fr 11fr;
     grid-template-rows: 1fr;
-    grid-gap: min(1vw, 1vh);
+    grid-gap: min(0.25vw, 0.25vh);
     grid-template-areas:
       'sidebar contents'
     ;
@@ -24,8 +24,9 @@
 
   section {
     grid-area: contents;
-
-    background-color:burlywood;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: min(0.25vw, 0.25vh);
   }
 </style>
 
