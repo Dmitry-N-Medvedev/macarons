@@ -1,11 +1,18 @@
+/* 
+  Inter font: https://rsms.me/inter/
+*/
+
 @font-face {
-  font-family: "ETCTrispaceVariable";
-  src: url("/fonts/ETCTrispaceVariable.woff2") format("woff2");
+  font-family: 'Inter';
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: oblique 0deg 10deg;
+  src: url('/fonts/Inter-3.15/Inter.var.woff2?v=3.15') format('woff2');
 }
 
 :root {
   --body-background-color: hsl(0, 0%, 100%);
-  --font-family: "ETCTrispaceVariable";
+  --font-family: 'Inter';
 }
 
 html,

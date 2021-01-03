@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "engines": {
     "node": "=15.5.0",
-    "pnpm": "=5.14.1"
+    "pnpm": "=5.14.2"
   },
   "engineStrict": true,
   "scripts": {
