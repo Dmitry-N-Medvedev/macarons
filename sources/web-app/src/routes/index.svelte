@@ -1,50 +1,44 @@
 <script>
-	import successkid from 'images/successkid.jpg';
+  import Sidebar from '../components/Sidebar.svelte';
+  import Items from '../components/Items.svelte';
 </script>
 
 <style>
-	h1, figure, p {
-		text-align: center;
-		margin: 0 auto;
-	}
+  article {
+    display: grid;
+    grid-template-columns: 1fr 11fr;
+    grid-template-rows: 1fr;
+    grid-gap: min(0.25vw, 0.25vh);
+    grid-template-areas:
+      'sidebar contents'
+    ;
 
-	h1 {
-		font-size: 2.8em;
-		text-transform: uppercase;
-		font-weight: 700;
-		margin: 0 0 0.5em 0;
-	}
+    height: 100%;
+  }
 
-	figure {
-		margin: 0 0 1em 0;
-	}
+  aside {
+    grid-area: sidebar;
 
-	img {
-		width: 100%;
-		max-width: 400px;
-		margin: 0 0 1em 0;
-	}
+    background-color:aquamarine;
+  }
 
-	p {
-		margin: 1em auto;
-	}
-
-	@media (min-width: 480px) {
-		h1 {
-			font-size: 4em;
-		}
-	}
+  section {
+    grid-area: contents;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: min(0.25vw, 0.25vh);
+  }
 </style>
 
 <svelte:head>
-	<title>Sapper project template</title>
+  <title>Macarons Shop Berlin</title>
 </svelte:head>
 
-<h1>Great success!</h1>
-
-<figure>
-	<img alt="Success Kid" src="{successkid}">
-	<figcaption>Have fun with Sapper!</figcaption>
-</figure>
-
-<p><strong>Try editing this file (src/routes/index.svelte) to test live reloading.</strong></p>
+<article>
+  <aside>
+    <Sidebar />
+  </aside>
+  <section>
+    <Items />
+  </section>
+</article>

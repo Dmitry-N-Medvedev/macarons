@@ -1,0 +1,72 @@
+[
+  {
+    "id": 0,
+    "title": "Macaron #0",
+    "graphics": {
+      "image": "/items/graphics/0.jpg"
+    }
+  },
+  {
+    "id": 1,
+    "title": "Macaron #1",
+    "graphics": {
+      "image": "/items/graphics/1.jpg"
+    }
+  },
+  {
+    "id": 2,
+    "title": "Macaron #2",
+    "graphics": {
+      "image": "/items/graphics/0.jpg"
+    }
+  },
+  {
+    "id": 3,
+    "title": "Macaron #3",
+    "graphics": {
+      "image": "/items/graphics/1.jpg"
+    }
+  },
+  {
+    "id": 4,
+    "title": "Macaron #4",
+    "graphics": {
+      "image": "/items/graphics/0.jpg"
+    }
+  },
+  {
+    "id": 5,
+    "title": "Macaron #5",
+    "graphics": {
+      "image": "/items/graphics/1.jpg"
+    }
+  },
+  {
+    "id": 6,
+    "title": "Macaron #6",
+    "graphics": {
+      "image": "/items/graphics/0.jpg"
+    }
+  },
+  {
+    "id": 7,
+    "title": "Macaron #7",
+    "graphics": {
+      "image": "/items/graphics/1.jpg"
+    }
+  },
+  {
+    "id": 8,
+    "title": "Macaron #8",
+    "graphics": {
+      "image": "/items/graphics/0.jpg"
+    }
+  },
+  {
+    "id": 9,
+    "title": "Macaron #9",
+    "graphics": {
+      "image": "/items/graphics/1.jpg"
+    }
+  }
+]
